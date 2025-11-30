@@ -25,3 +25,14 @@ Its core responsibilities include:
 - Registering and initializing plugins
 - Managing plugin lifecycle events
 - Invoking plugin logic whenever the Blog Engine triggers specific hooks
+
+This abstraction ensures that the application can remain clean, organized, and loosely coupled while still allowing powerful extensibility.
+
+#### **Plugins Folder**
+
+A centralized directory where all plugin implementations reside. Developers can easily create new plugins, drop them into this folder, and have them automatically picked up by the Plugin Manager.  
+Each plugin can introduce new functionality, override existing behavior, or extend the system with additional features—demonstrating how modular architecture supports flexibility and long-term scalability.
+
+---
+
+This structure collectively demonstrates how modern applications can adopt a plugin-based architecture to support dynamic feature growth, better maintainability, and a clean separation of concerns.
